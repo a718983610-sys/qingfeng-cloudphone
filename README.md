@@ -1,5 +1,7 @@
 # qingfeng-cloudphone
 
+[![shellcheck](https://github.com/a718983610-sys/qingfeng-cloudphone/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/a718983610-sys/qingfeng-cloudphone/actions/workflows/shellcheck.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 One-script deployment of a **redroid (Android 13) cloud phone with Google
 services (GMS)** on an ARM64 Ubuntu cloud instance, using Docker.
 
