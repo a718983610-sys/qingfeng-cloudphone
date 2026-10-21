@@ -5,10 +5,17 @@
 One-script deployment of a **redroid (Android 13) cloud phone with Google
 services (GMS)** on an ARM64 Ubuntu cloud instance, using Docker.
 
-Built and used for the QingFeng OS cloud phone project: an Android phone that
-lives on a cloud server, keeps its data in a single portable directory, and is
-reached privately over an SSH tunnel or Tailscale — never through ports
-exposed to the public internet.
+Built for the QingFeng OS cloud phone project (in development): an Android
+phone that lives on a cloud server, keeps its data in a single portable
+directory, and is reached privately over an SSH tunnel or Tailscale — never
+through ports exposed to the public internet.
+
+**Project status:** v0.1.0. The deployment toolkit is in active
+development. End-to-end deployments are being verified across ARM cloud
+providers, and verified results are recorded in `docs/` as they complete.
+The script itself is complete and ready to run; the cloud phone it deploys
+is still being brought up and tested, and this README does not claim
+production usage.
 
 ## What it does
 
