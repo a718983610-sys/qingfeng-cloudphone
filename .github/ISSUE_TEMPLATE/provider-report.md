@@ -7,6 +7,8 @@ labels: compatibility
 
 **Provider / region / instance type**
 
+**Date tested**
+
 **Host kernel (`uname -r`)**
 
 **Binder devices present?**
@@ -17,7 +19,18 @@ labels: compatibility
 
 **Docker version**
 
-**How far did the deployment get?**
-(e.g. container up and Android booted / stopped at binder check / error below)
+**Result**
+- [ ] Worked end-to-end (container up, Android booted, ADB connected)
+- [ ] Failed — fill in the section below
 
-**First error, if any**
+**Failure symptoms (if it failed)**
+What exactly did you see? (script stopped at which step, error message,
+container state, black screen, etc.)
+
+**Steps to reproduce**
+1.
+2.
+3.
+
+**Relevant logs**
+(First error lines from the script output, `docker logs`, or `adb logcat`)

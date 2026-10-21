@@ -8,13 +8,24 @@ follow [Semantic Versioning](https://semver.org/).
 
 ### Added
 - `SECURITY.md` with a private vulnerability reporting policy.
-- Provider compatibility matrix (`docs/providers.md`) and a matching
+  *Why: the script runs privileged containers, so reporters need a
+  private channel and a stated response time (acknowledgement within
+  7 days).*
+- Provider compatibility matrix (`docs/providers.md`) plus a matching
   issue template for structured compatibility reports.
-- Honest project-status note in the README: the toolkit is ready to run;
-  end-to-end deployments are still being verified across providers.
+  *Why: "does it run on provider X?" is the first question for this
+  kind of tool; dated results with the exact region/instance/kernel
+  are worth more than a bare "it works".*
+- Honest project-status note in the README: the toolkit is ready to
+  run; end-to-end deployments are still being verified across
+  providers.
+  *Why: the deploying cloud phone is still being brought up, and the
+  README should not read as if it were already in production.*
 
 ### Changed
-- Roadmap: ShellCheck CI is live (moved from "in progress" to done).
+- Roadmap: ShellCheck CI is live (moved from "in progress" to done);
+  planned items now carry rough priorities so they do not read as
+  commitments in progress.
 
 ## [0.1.0] - 2026-10-21
 
