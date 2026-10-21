@@ -4,6 +4,18 @@ All notable changes to this project are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/), versions
 follow [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+- `SECURITY.md` with a private vulnerability reporting policy.
+- Provider compatibility matrix (`docs/providers.md`) and a matching
+  issue template for structured compatibility reports.
+- Honest project-status note in the README: the toolkit is ready to run;
+  end-to-end deployments are still being verified across providers.
+
+### Changed
+- Roadmap: ShellCheck CI is live (moved from "in progress" to done).
+
 ## [0.1.0] - 2026-10-21
 
 ### Added
