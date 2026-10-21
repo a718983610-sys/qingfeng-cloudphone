@@ -1,0 +1,7 @@
+config.env
+redroid-data/
+redroid-script/
+venv/
+*.pem
+*.key
+.env
