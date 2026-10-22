@@ -6,6 +6,11 @@ follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-22
+
+Maintenance release: documentation and community files only; the
+deployment script is unchanged from 0.1.0.
+
 ### Added
 - `SECURITY.md` with a private vulnerability reporting policy.
   *Why: the script runs privileged containers, so reporters need a
